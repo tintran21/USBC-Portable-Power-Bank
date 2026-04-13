@@ -17,18 +17,6 @@ The system operates in two distinct phases, handled by two separate functional b
 
 ### 1. Charge Controller (Input Block)
 This block receives 5V from the wall adapter and safely charges the 3.7V Lithium-Polymer (Li-Po) battery.
-* **IN (USB Type-C):** 5V power input.
-* **U1 (Charge IC - SOT-23-5):** The "brain" of the block. It manages the CC/CV (Constant Current / Constant Voltage) charging algorithm and protects the battery from overcurrent/overvoltage.
-* **R2 (R_PROG - 2kΩ):** Programs the maximum charging current (connected to the PROG pin).
-* **R11, R14 (56kΩ):** Type-C CC1/CC2 pull-down resistors. Mandatory for Type-C standard to identify the board as a power-sink device (UFP - Upstream Facing Port).
-* **C1, C2 (4.7µF):** MLCC filter capacitors for input and output smoothing.
-* **LED1 (Red):** Connected to the STAT pin to indicate active charging status.
-* **SW1 (Switch):** Main system power toggle isolating the battery.
-* **Battery Connector:** JST socket (S2B-PH-K-S) for the physical Li-Po cell connection.
-
-
-### 1. Charge Controller (Input Block)
-This block receives 5V from the wall adapter and safely charges the 3.7V Lithium-Polymer (Li-Po) battery.
 * **J1 (USB Type-C):** 5V power input port (5VIN).
 * **MCP (MCP73831):** The "brain" of the block. It manages the CC/CV (Constant Current / Constant Voltage) charging algorithm. Link Datasheet: [MCP73831 Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf)
 * **R2 (2kΩ):** Programs the maximum charging current.
