@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=GND Pin=MCP-5
+Removed Pin From Net: NetName=GND Pin=R2-2
+Removed Pin From Net: NetName=+5 Pin=R13-2
+Removed Pin From Net: NetName=+5 Pin=R14-2
+Removed Member From Class: ClassName=Sheet1_ChargeManagementControllers Member=R2
+Change Component Designator: OldDesignator=IN NewDesignator=J1
+Change Component Designator: OldDesignator=OUT NewDesignator=J2
+Change Component Designator: OldDesignator=SW NewDesignator=S1
+Added Component: Designator=R?(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=MCP-2
+Added Pin To Net: NetName=GND Pin=R?-2
+Added Pin To Net: NetName=NetMCP_5 Pin=MCP-5
+Added Pin To Net: NetName=NetMCP_5 Pin=R?-1
+Added Net: Name=NetMCP_5
+Added Member To Class: ClassName=Sheet2_StepUpDCDCConverter Member=Component L1 2.2uH
+Added Member To Class: ClassName=Sheet2_StepUpDCDCConverter Member=Component R6 750k
+Added Member To Class: ClassName=Sheet2_StepUpDCDCConverter Member=Component R7 100k
+Added Member To Class: ClassName=Sheet2_StepUpDCDCConverter Member=Component R12 51K
+Added Member To Class: ClassName=Sheet1_ChargeManagementControllers Member=Component R? 2K
+Added Room: Name=Sheet1_ChargeManagementControllers
+Added Room: Name=Sheet2_StepUpDCDCConverter

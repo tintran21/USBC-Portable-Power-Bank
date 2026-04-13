@@ -1,0 +1,10 @@
+Change Net Name : Old Net Name=CC1_OUT New Net Name=CC1OUT
+Change Net Name : Old Net Name=CC2_OUT New Net Name=CC2OUT
+Added Pin To Net: NetName=CC1IN Pin=J1-A5
+Added Pin To Net: NetName=CC1IN Pin=R3-1
+Added Net: Name=CC1IN
+Added Pin To Net: NetName=CC2IN Pin=J1-B5
+Added Pin To Net: NetName=CC2IN Pin=R4-1
+Added Net: Name=CC2IN
+Added Room: Name=Sheet1_ChargeManagementControllers
+Added Room: Name=Sheet2_StepUpDCDCConverter

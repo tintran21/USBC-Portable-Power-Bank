@@ -1,0 +1,8 @@
+Change Component Designator: OldDesignator=IN NewDesignator=J1
+Change Component Designator: OldDesignator=OUT NewDesignator=J2
+Change Component Description : Designator=D1 Old Description=Schottky Diode 1A 40V 0.5Vf SMA New Description=Schottky Diode 1A 40V 0.5Vf SMA | Diodes Inc B140-13-F
+Change Component Description : Designator=D2 Old Description=Schottky Diode 1A 40V 0.5Vf SMA New Description=Schottky Diode 1A 40V 0.5Vf SMA | Diodes Inc B140-13-F
+Added Pin To Net: NetName=GND Pin=J1-B1_A12
+Added Pin To Net: NetName=GND Pin=J2-B1_A12
+Added Room: Name=Sheet1_ChargeManagementControllers
+Added Room: Name=Sheet2_StepUpDCDCConverter

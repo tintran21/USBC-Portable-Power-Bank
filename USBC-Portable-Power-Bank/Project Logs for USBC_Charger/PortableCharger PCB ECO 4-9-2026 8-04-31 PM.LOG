@@ -1,0 +1,17 @@
+Removed Member From Class: ClassName=Sheet2_StepUpDCDCConverter Member=
+Removed Member From Class: ClassName=PowerNets Member=Net_LX
+Removed Member From Class: ClassName=PowerNets Member=Net_VIN
+Change Component Designator: OldDesignator= NewDesignator=P2
+Change Component Designator: OldDesignator= NewDesignator=PAM2401
+Change Net Name : Old Net Name=Net_1 New Net Name=NetP1_1
+Change Net Name : Old Net Name=Net_VIN New Net Name=NetC2_2
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Net: Name=NetL1_2
+Added Pin To Net: NetName=NetPAM2401_EN Pin=R5-2
+Added Net: Name=NetPAM2401_EN
+Added Pin To Net: NetName=NetPAM2401_FB Pin=R6-2
+Added Pin To Net: NetName=NetPAM2401_FB Pin=R7-1
+Added Net: Name=NetPAM2401_FB
+Added Member To Class: ClassName=Sheet2_StepUpDCDCConverter Member=Component PAM2401
+Added Member To Class: ClassName=PowerNets Member=Wire NetC2_2
+Added Member To Class: ClassName=PowerNets Member=Wire NetL1_2

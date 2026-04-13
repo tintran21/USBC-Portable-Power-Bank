@@ -1,0 +1,15 @@
+Removed Member From Class: ClassName=Sheet2_StepUpDCDCConverter Member=PAM
+Removed Member From Class: ClassName=PowerNets Member=NetC2_2
+Removed Member From Class: ClassName=PowerNets Member=NetL1_2
+Added Component: Designator=*(TSOP65P490X110-8N)
+Change Net Name : Old Net Name=NetC2_2 New Net Name=Net*_VIN
+Added Pin To Net: NetName=Net*_EN Pin=R5-2
+Added Net: Name=Net*_EN
+Added Pin To Net: NetName=Net*_FB Pin=R6-2
+Added Pin To Net: NetName=Net*_FB Pin=R7-1
+Added Net: Name=Net*_FB
+Added Pin To Net: NetName=Net*_LX Pin=L1-2
+Added Net: Name=Net*_LX
+Added Member To Class: ClassName=Sheet2_StepUpDCDCConverter Member=Component * PAM2401
+Added Member To Class: ClassName=PowerNets Member=Wire Net*_LX
+Added Member To Class: ClassName=PowerNets Member=Wire Net*_VIN

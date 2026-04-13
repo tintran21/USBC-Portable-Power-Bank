@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+5 Pin=LED?-1
+Removed Pin From Net: NetName=GND Pin=R3-2
+Removed Pin From Net: NetName=GND Pin=R4-2
+Removed Member From Class: ClassName=Sheet2_StepUpDCDCConverter Member=LED?
+Change Component Designator: OldDesignator=IN NewDesignator=J1
+Change Component Designator: OldDesignator=OUT NewDesignator=J2
+Added Component: Designator=LED2(LED 3512)
+Add component (AddParameter): Name = "Value"; Value = "LED 3 - 5 ly 2 Colour"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=LED2-1
+Added Pin To Net: NetName=NetLED2_2 Pin=LED2-2
+Added Pin To Net: NetName=NetLED2_2 Pin=R8-1
+Added Net: Name=NetLED2_2
+Added Member To Class: ClassName=Sheet2_StepUpDCDCConverter Member=Component LED2 LED
+Added Room: Name=Sheet1_ChargeManagementControllers
+Added Room: Name=Sheet2_StepUpDCDCConverter

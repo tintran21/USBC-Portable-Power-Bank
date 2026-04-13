@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=J?-2
+Removed Member From Class: ClassName=Sheet1_ChargeManagementControllers Member=J?
+Added Component: Designator=(JST_B2B-XH-A)
+Added Pin To Net: NetName=GND Pin=-2
+Added Pin To Net: NetName=Net_1 Pin=-1
+Added Pin To Net: NetName=Net_1 Pin=P1-1
+Added Pin To Net: NetName=Net_1 Pin=S1-3
+Added Net: Name=Net_1
+Added Member To Class: ClassName=Sheet1_ChargeManagementControllers Member=Component  B2B-XH-A
