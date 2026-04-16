@@ -1,8 +1,8 @@
-# USB-C Portable Power Bank Design
+# ⚡ USB-C Portable Power Bank Design
 
 This project encompasses the complete hardware design process for a portable battery charger module (Power Bank) using Altium Designer. The board is compactly designed with dimensions of 2.5 x 4 cm, optimized for tight spaces while ensuring excellent heat dissipation and electromagnetic interference reduction.
 
-## 📂 Project Structure
+## Project Structure
 
 The project is divided into clear modules for easy management:
 * `ChargeManagerController.SchDoc`: The Li-Ion/Li-Po battery charge management circuit.
@@ -11,7 +11,7 @@ The project is divided into clear modules for easy management:
 
 ---
 
-## 🧠 Circuit Architecture & Operation
+## Circuit Architecture & Operation
 
 The system operates in two distinct phases, handled by two separate functional blocks:
 
@@ -68,11 +68,11 @@ Routing a 2.5 x 4 cm board requires careful consideration regarding high current
 <img width="802" height="501" alt="image" src="https://github.com/user-attachments/assets/ada58ef0-638b-4ec9-8806-5a8d11aa2197" />
 
 
-## 🚀 How to Open This Project
+## How to Open This Project
 1. Clone this repository to your device.
 2. Open the `USBC_Charger.PrjPcb` file using Altium Designer (Version 20 or newer recommended).
 3. Compile the project to verify sheet connections and check for any component errors.
 
-## 📫 Contact
+## Contact
 📧 [trantin2114@gmail.com](mailto:trantin2114@gmail.com)
 
