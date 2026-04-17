@@ -4,7 +4,7 @@ This project encompasses the complete hardware design process for a portable bat
 
 ## Project Structure
 
-The project is divided into clear modules for easy management:
+The project is divided into clear modules:
 * `ChargeManagerController.SchDoc`: The Li-Ion/Li-Po battery charge management circuit.
 * `StepUpDCDCConverter.SchDoc`: The Boost (DC-DC Converter) circuit for 5V output.
 * `portableCharger.PcbDoc`: The completed 2-layer PCB layout.
