@@ -63,9 +63,7 @@ Routing a 2.5 x 4 cm board requires careful consideration regarding high current
   * High-current paths (VCC/BAT) are routed using wide tracks or **Polygon Pours** to ensure current carrying capacity and minimize voltage drop.
 * **Layer Transition & Via Techniques:**
 
-<img width="804" height="510" alt="image" src="https://github.com/user-attachments/assets/0262d351-a79a-404d-9f30-55f40d329bbe" />
-
-<img width="802" height="501" alt="image" src="https://github.com/user-attachments/assets/ada58ef0-638b-4ec9-8806-5a8d11aa2197" />
+<img width="804" height="510" alt="image" src="https://github.com/user-attachments/assets/0262d351-a79a-404d-9f30-55f40d329bbe" /> <img width="802" height="501" alt="image" src="https://github.com/user-attachments/assets/ada58ef0-638b-4ec9-8806-5a8d11aa2197" />
 
 
 ## How to Open This Project
