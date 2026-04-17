@@ -1,6 +1,6 @@
 # ⚡ USB-C Portable Power Bank Design
 
-This project encompasses the complete hardware design process for a portable battery charger module (Power Bank) using Altium Designer. The board is compactly designed with dimensions of 2.5 x 4 cm, optimized for tight spaces while ensuring excellent heat dissipation and electromagnetic interference reduction.
+This project encompasses the hardware design process for a portable power bank using Altium Designer.
 
 ## Project Structure
 
