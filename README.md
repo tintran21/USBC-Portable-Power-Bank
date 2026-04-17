@@ -52,7 +52,6 @@ To maintain complete control over footprints and 3D models, the project utilizes
 * **Custom IC Footprints:** Using Altium's **IPC Compliant Footprint Wizard**. By directly inputting the mechanical dimensions from the datasheet's *Package Outline Dimensions* section, Altium automatically generated precise footprints and 3D models. 
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/8f99b6cf-8a7c-4052-aa76-b6a749b2bfa9" />
-
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/cccebc97-f569-48d1-b988-48e14532463c" />
 
 ### 2. Component Placement & Routing (PCB Layout)
